@@ -19,6 +19,8 @@ public class DesafiotresQuis {
         System.out.println("PARABENS!! VOCE ACERTOU.. VAMOS PARA A PROXIMA");
 
         System.out.println("EM QUAL ANO FOI A FILOSOFIA DE PASCAL" +
+                "\nA- 1656-1657" +
+                "\nB- 1985-1996" +
                 "");
 
     }
