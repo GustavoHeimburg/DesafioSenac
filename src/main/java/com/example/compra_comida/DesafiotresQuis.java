@@ -7,7 +7,7 @@ public class DesafiotresQuis {
         //Desafio um comida
         Scanner ler = new Scanner(System.in);
         String nomeJogador;
-        String Quis1, Quis2, Quis3;
+        String Quis1, Quis2, Quis3, Quis4;
 
         System.out.println("OLAAA! ESSE QUIS É SOBRE PERGUNTAS MANEIRAS!");
         System.out.println("DIGITE SEU NICK: ");
@@ -45,9 +45,23 @@ public class DesafiotresQuis {
                 "\nD- José Bonafacio");
         Quis3 = ler.nextLine();
         if (Quis3.equals("B") || Quis3.equals("b")) {
-            System.out.println("PARABENS!! VOCE ACERTOU A RESPOSTA.. FIM DO QUIZ");
+            System.out.println("PARABENS!! VOCE ACERTOU.. VAMOS PARA A PROXIMA\n");
         } else {
-            System.out.println("RESPOSTA ERRADA.. FIM DO QUIZ");
+            System.out.println("QUE PENA, RESPOSTA ERRADA.. MAIS SORTE NA PROXIMA\n");
+
+            System.out.println("EM QUE ANO COMECOU AS INVENCOES DA PROGRAMACAO" +
+                    "\nA- 1650" +
+                    "\nB- 1686" +
+                    "\nC- 1837" +
+                    "\nD- 1965");
+            Quis4 = ler.nextLine();
+            if (Quis4.equals("C") || Quis4.equals("c")){ ;
+            System.out.println("PARABENS!! VOCE ACERTOU A RESPOSTA!...FIM DO QUIS");
+            }else{
+            System.out.println("QUE PENA, RESPOSTA ERRADA.. FIM DO QUIS");
         }
+    }
+
+
     }
 }
