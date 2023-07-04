@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class DesafiotresQuis {
     public static void main(String[] args) {
+        //Desafio um comida
         Scanner ler = new Scanner(System.in);
         String nomeJogador, Quis1 = null, Quis2 = null, Quis3 = null;
 
