@@ -21,7 +21,7 @@ public class comida {
         } else if (comer.equals("N") && dinheiro.equals("N")) {
             System.out.println("Entao se suma daqui e nao volte mais");
         }else{
-            System.out.println("Digite um valor valido, sua mula3");
+            System.out.println("Digite outra opcao...");
         }
     }
 
