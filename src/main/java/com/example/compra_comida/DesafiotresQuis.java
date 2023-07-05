@@ -8,6 +8,7 @@ public class DesafiotresQuis {
         Scanner ler = new Scanner(System.in);
         String nomeJogador;
         String Quis1, Quis2, Quis3, Quis4;
+        int pontucaoUm, pontuacaoDois,pontuacaoTres;
 
         System.out.println("OLAAA! ESSE QUIS É SOBRE PERGUNTAS MANEIRAS!");
         System.out.println("DIGITE SEU NICK: ");
@@ -25,7 +26,8 @@ public class DesafiotresQuis {
         } else {
             System.out.println("QUE PENA, RESPOSTA ERRADA.. MAIS SORTE NA PROXIMA\n");
         }
-
+        pontucaoUm = ler.nextInt();
+        ler.nextLine();
         System.out.println("EM QUAL ANO FOI A FILOSOFIA DE PASCAL" +
                 "\nA- 1656-1657" +
                 "\nB- 1985-1996" +
@@ -37,7 +39,8 @@ public class DesafiotresQuis {
         } else {
             System.out.println("QUE PENA, RESPOSTA ERRADA.. MAIS SORTE NA PROXIMA \n");
         }
-
+        pontuacaoDois = ler.nextInt();
+        ler.nextLine();
         System.out.println("QUAL FOI A PESSOA MAIS IMPORTANTE PARA A HISTORIA DO BRASIL?" +
                 "\nA- Pedro Alvares Cabral" +
                 "\nB- Joaquin Nabuco" +
@@ -48,7 +51,9 @@ public class DesafiotresQuis {
             System.out.println("PARABENS!! VOCE ACERTOU.. VAMOS PARA A PROXIMA\n");
         } else {
             System.out.println("QUE PENA, RESPOSTA ERRADA.. MAIS SORTE NA PROXIMA\n");
-
+        }
+        pontuacaoTres = ler.nextInt();
+        ler.nextLine();
             System.out.println("EM QUE ANO COMECOU AS INVENCOES DA PROGRAMACAO" +
                     "\nA- 1650" +
                     "\nB- 1686" +
@@ -59,9 +64,11 @@ public class DesafiotresQuis {
             System.out.println("PARABENS!! VOCE ACERTOU A RESPOSTA!...FIM DO QUIS");
             }else{
             System.out.println("QUE PENA, RESPOSTA ERRADA.. FIM DO QUIS");
+
+            if (pontucaoUm ==1);
         }
     }
 
 
     }
-}
+
