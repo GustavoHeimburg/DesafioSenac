@@ -1,4 +1,4 @@
-package com.example.compra_comida;
+package com.example.DesafiosSenac;
 
 import java.util.Scanner;
 

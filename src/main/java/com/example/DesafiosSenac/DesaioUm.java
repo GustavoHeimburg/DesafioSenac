@@ -1,8 +1,8 @@
-package com.example.compra_comida;
+package com.example.DesafiosSenac;
 
 import java.util.Scanner;
 
-public class comida {
+public class DesaioUm {
 
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);

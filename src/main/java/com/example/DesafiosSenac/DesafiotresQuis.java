@@ -1,4 +1,4 @@
-package com.example.compra_comida;
+package com.example.DesafiosSenac;
 
 import java.util.Scanner;
 
@@ -27,7 +27,6 @@ public class DesafiotresQuis {
             System.out.println("QUE PENA, RESPOSTA ERRADA.. MAIS SORTE NA PROXIMA\n");
         }
         pontucaoUm = ler.nextInt();
-        ler.nextLine();
         System.out.println("EM QUAL ANO FOI A FILOSOFIA DE PASCAL" +
                 "\nA- 1656-1657" +
                 "\nB- 1985-1996" +
@@ -62,13 +61,18 @@ public class DesafiotresQuis {
             Quis4 = ler.nextLine();
             if (Quis4.equals("C") || Quis4.equals("c")){ ;
             System.out.println("PARABENS!! VOCE ACERTOU A RESPOSTA!...FIM DO QUIS");
-            }else{
-            System.out.println("QUE PENA, RESPOSTA ERRADA.. FIM DO QUIS");
+            }else {
+                System.out.println("QUE PENA, RESPOSTA ERRADA.. FIM DO QUIS");
 
-            if (pontucaoUm ==1);
+                ler.nextLine();
+                System.out.println("Agora vamos ver o resultado final de quantas questoes voce acertou!...");
+                if (pontucaoUm == 0) {
+                    System.out.println("Que pena, seu acerto de questoes foram 0 ;( ");
+                } else if (pontucaoUm == 1) ;
+                System.out.println("BAIXO, Seu acerto de questoes foram de 1");
+            }
         }
     }
 
 
-    }
 
