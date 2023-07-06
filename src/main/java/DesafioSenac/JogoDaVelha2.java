@@ -1,4 +1,4 @@
-package compra_comida;
+package DesafioSenac;
 
 import java.util.*;
 
