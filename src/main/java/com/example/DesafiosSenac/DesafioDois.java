@@ -29,11 +29,11 @@ public class DesafioDois {
         ler.nextLine();
 
         if( precoum < precodois && precoum < precotres) {
-            System.out.println("O produto: " + nomeum + "\n Valor: " + precoum);
+            System.out.println("O produto: " + nomeum + "\nValor: " + precoum);
         } else if(precodois < precoum && precodois < precotres) {
-            System.out.println("O produto: " + nomedois +"\n Valor: " + precodois);
+            System.out.println("O produto: " + nomedois +"\nValor: " + precodois);
         } else if (precotres < precoum && precotres < precodois) {
-            System.out.println("O produto: " + nometres +"\n Valor: " + precotres);
+            System.out.println("O produto: " + nometres +"\nValor: " + precotres);
 
         }
     }
