@@ -13,6 +13,7 @@ public class DesafiotresQuis {
         System.out.println("DIGITE SEU NICK: ");
         nomeJogador = ler.nextLine();
         System.out.println("SEJA BEM VINDO AO QUIS DE PERGUNTAS JOGADOR: \n" + nomeJogador);
+        System.out.println("Clique 'ENTER' para iniciar o quis de perguntas!");
         nomeJogador = ler.nextLine();
         System.out.println("1- Quantos habitantes existem no Brasil? " +
                 "\nA- 200,1 milhoes" +
@@ -56,11 +57,14 @@ public class DesafiotresQuis {
                     "\nD- 1965");
             Quis4 = ler.nextLine();
             if (Quis4.equals("C") || Quis4.equals("c")){ ;
-            System.out.println("PARABENS!! VOCE ACERTOU A RESPOSTA!...FIM DO QUIS");
+                System.out.println("PARABENS!! VOCE ACERTOU A RESPOSTA!...FIM DO QUIS");
             }else{
-            System.out.println("QUE PENA, RESPOSTA ERRADA.. FIM DO QUIS");
+                System.out.println("QUE PENA, RESPOSTA ERRADA.. FIM DO QUIS");
+                System.out.println("Clique 'ENTER' para ver as respostas corretas do quis!");
+                Quis4 = ler.nextLine();
+                System.out.println("A sequencia de Respostas corretas são: D - A - B - C.");
+            }
         }
-    }
 
 
     }
