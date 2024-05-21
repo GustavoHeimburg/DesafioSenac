@@ -1,4 +1,4 @@
-package com.example.compra_comida;
+package com.example;
 
 import java.util.Scanner;
 
@@ -11,6 +11,8 @@ public class DesafiotresQuis {
 
         System.out.println("OLAAA! ESSE QUIS É SOBRE PERGUNTAS MANEIRAS!");
         System.out.println("DIGITE SEU NICK: ");
+        nomeJogador = ler.nextLine();
+        System.out.println("antes de começarmos o quis... vamos fazer um teste de logica " +nomeJogador);
         nomeJogador = ler.nextLine();
         System.out.println("SEJA BEM VINDO AO QUIS DE PERGUNTAS JOGADOR: \n" + nomeJogador);
         System.out.println("Clique 'ENTER' para iniciar o quis de perguntas!");
